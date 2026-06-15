@@ -9,7 +9,7 @@ function that eliminates leading and trailing spaces.
 */
 // --------------------------------------------------------------
 
-let first_name = "  Deshmukh       ";
+let first_name = "  Desh mukh       ";
 
 // Spaces are even counted in String.length
 
@@ -41,3 +41,4 @@ console.log(newString);
 console.log(newString.length); // 9
 console.log(first_name.length); // 9
 
+// It cannot removed spaces in between the string, it only removes leading and trailing spaces.
